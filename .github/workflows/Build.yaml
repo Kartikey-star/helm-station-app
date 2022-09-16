@@ -125,8 +125,8 @@ jobs:
           source_file: 'config-chart/chart/device-registry/Chart.yaml'
           destination_repo: 'openshift-app-service-poc/helm-station-config'
           destination_folder: 'chart/device-registry'
-          user_email: 'mmulholl@redhat.com'
-          user_name: 'mmulholla'
+          user_email: 'kmamgain@redhat.com'
+          user_name: 'kmamgain'
           commit_message: 'Update config chart version for Argo CD pipeline testing'
 
       - name: Pushes device tag
@@ -137,6 +137,6 @@ jobs:
           source_file: 'config-chart/chart/device-registry/values-test.yaml'
           destination_repo: 'openshift-app-service-poc/helm-station-config'
           destination_folder: 'chart/device-registry'
-          user_email: 'mmulholl@redhat.com'
-          user_name: 'martin'
+          user_email: 'kmamgain@redhat.com'
+          user_name: 'kmamgain'
           commit_message: 'Update config chart values device tag for Argo CD pipeline testing'
